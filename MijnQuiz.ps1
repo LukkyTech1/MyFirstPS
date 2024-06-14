@@ -6,7 +6,7 @@ function Stel-Vraag {
         [string]$vraag,
         [string]$juistAntwoord
     )
-
+ 
     Write-Host $vraag
     $antwoord = Read-Host "Je antwoord"
 
